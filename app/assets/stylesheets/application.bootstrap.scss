@@ -1,2 +1,13 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
+
+.swiper {
+    width: 600px;
+    height: 300px;
+    background-color: aqua;
+
+    .swiper-slide > img {
+        width: 100%;
+        object-fit: cover;
+  } 
+}   
