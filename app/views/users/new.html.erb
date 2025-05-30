@@ -3,7 +3,8 @@
     <%= simple_form_for @user, url: users_path do |f|  %>
       <%= f.input :name %>
       <%= f.input :sex, as: :radio_buttons, collection: I18n.t('.simple_form.labels.user.sex.collections').invert.to_a, label: '性別' %>
+      <%= f.input :languge, collection: [:ja, :en], label: false%>
       <%= f.button :submit, class: 'btn btn-primary' %>
     <% end %>
-  </div>    
+  </div> 
 </div>

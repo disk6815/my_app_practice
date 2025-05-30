@@ -1,7 +1,7 @@
-en:
+ja:
   helpers:
     submit:
-      create: 'Create'
+      create: 登録する
   simple_form:
     "yes": 'Yes'
     "no": 'No'
@@ -32,14 +32,15 @@ en:
     # prompts:
     #   defaults:
     #     age: 'Select your age'
-    user:
-      name: Name
-      sex:
-        collections:
-          men:  Men
-          fimale:  Fimale
-      options:
-        user:
-          languge:
-            ja: Japanese
-            en: English    
+    labels:
+      user:
+        name: 名前
+        sex:
+          collections:
+            men:  男
+            fimale:  女
+    options:
+      user:
+      languge:
+        ja: 日本語
+        en: 英語
